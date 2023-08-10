@@ -23,7 +23,7 @@
        <h6 class="invoice-card__invoice-id">{{ invoiceId }}</h6>
        <h6 class="invoice-card__name">{{ name }}</h6>
        <h6 class="invoice-card__date">{{ moment(date).format('DD-MM-YYYY hh:mm') }}</h6>
-       <h6 class="invoice-card__amount">$ {{ amount }}</h6>
+       <h6 class="invoice-card__amount">N {{ amount }}</h6>
        <InvoiceStatus class="invoice-card__status" :kind="status" />
 
        <svg class="invoice-card__icon" width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
